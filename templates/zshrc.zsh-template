@@ -68,7 +68,7 @@ ENABLE_CORRECTION="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(common-aliases coloar-man-pages git docker docker-compose)
+plugins=(common-aliases colored-man-pages git docker docker-compose)
 
 source $ZSH/oh-my-zsh.sh
 
