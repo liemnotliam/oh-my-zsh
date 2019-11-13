@@ -101,3 +101,9 @@ source $ZSH/oh-my-zsh.sh
 # To make docker autocomplete work
 autoload -Uz compinit
 compinit
+
+# pyenv autocomplete
+# See: https://github.com/pyenv/pyenv#installation
+if command -v pyenv 1>/dev/null 2>&1; then
+  eval "$(pyenv init -)"
+fi
